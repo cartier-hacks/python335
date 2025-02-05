@@ -29,7 +29,7 @@ numbers = int(input("How many numbers would you like?\n "))
 
 # Level 2, fully random
 
-password_list= []
+password_list = []
 password = ""
 
 for char in range(0, characters):
