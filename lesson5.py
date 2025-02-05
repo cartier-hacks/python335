@@ -13,6 +13,10 @@ numbers = int(input("How many numbers would you like?\n "))
 
 # Randomization Level 1 (not fully random)
 
+# Something
+
+# Something
+
 # password = ""
 
 # for char in range(0, characters):
