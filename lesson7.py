@@ -57,7 +57,6 @@ lives = 6
 # Choose a random word for the list
 
 chosen_word = random.choice(word_list)
-print(chosen_word)
 
 # Setting word with underscores
 
