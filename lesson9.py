@@ -1,5 +1,6 @@
 # This is a silent auction program using dictionaries
 import os
+
 # Function to find the highest bidder option 1
 
 def find_highest_bidder(bidding_dictionary):
@@ -23,6 +24,10 @@ def find_highest_bidder2(bidding_dictionary):
 # Set other_bidders to true to initiate while loop
 
 bids = {}
+clear_commands = {
+    "nt": "cls",
+    "posix": "clear"
+}
 
 other_bidders = True
 
@@ -35,4 +40,4 @@ while other_bidders:
         other_bidders = False
         find_highest_bidder2(bids)
     elif other_bidders == "yes":
-        os.system('clear')
+        os.system(clear_commands[os.name])
