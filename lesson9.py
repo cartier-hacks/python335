@@ -1,4 +1,7 @@
 # This is a silent auction program using dictionaries
+
+# Importing OS to determine os/based clear command
+
 import os
 
 # Function to find the highest bidder option 1
@@ -24,6 +27,9 @@ def find_highest_bidder2(bidding_dictionary):
 # Set other_bidders to true to initiate while loop
 
 bids = {}
+
+# This will determine which os is being used to use the corresponding clear command
+
 clear_commands = {
     "nt": "cls",
     "posix": "clear"
